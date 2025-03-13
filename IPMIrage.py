@@ -3,8 +3,15 @@ import time
 import csv
 import os
 import subprocess
-import yaml
 import ipaddress
+
+try:
+    import yaml
+except ImportError:
+    print("ERROR: PyYAML module not found.")
+    print("Please ensure you've activated the virtual environment and PyYAML is installed:")
+    print("    source venv/bin/activate && pip install pyyaml")
+    sys.exit(1)
 import re
 import logging
 from pathlib import Path

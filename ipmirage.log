@@ -1,0 +1,7 @@
+2025-03-13 10:26:24,937 - INFO - Successfully loaded 0 valid entries from CSV file
+2025-03-13 10:26:24,937 - ERROR - No valid entries found in the CSV file. Exiting.
+2025-03-13 10:27:02,635 - INFO - Successfully loaded 4 valid entries from CSV file
+2025-03-13 10:27:02,635 - INFO - Setting eth0 IP to 192.168.100.10 to serve DHCP requests...
+2025-03-13 10:27:02,684 - INFO - eth0 is now set to 192.168.100.10 and ready to assign IPs.
+2025-03-13 10:27:02,684 - INFO - Setting up DHCP pool for IPMI discovery...
+2025-03-13 10:27:02,778 - ERROR - Failed to start dnsmasq: Command '['sudo', 'systemctl', 'restart', 'dnsmasq']' returned non-zero exit status 1.
